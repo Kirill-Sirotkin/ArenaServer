@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://ck2b442r5r6yx"]
+
+[ext_resource type="Script" path="res://Scripts/Network.gd" id="1_6kwik"]
+[ext_resource type="Script" path="res://Scripts/RPCManager.gd" id="2_7n3t2"]
+[ext_resource type="Script" path="res://Scripts/LobbyManager.gd" id="2_syax7"]
+
+[node name="Server" type="Node"]
+script = ExtResource("1_6kwik")
+
+[node name="RPCManager" type="Node" parent="."]
+script = ExtResource("2_7n3t2")
+
+[node name="LobbyManager" type="Node" parent="."]
+script = ExtResource("2_syax7")
